@@ -30,7 +30,7 @@ hh = waitbar(0);
 for i = 1:length(lambda)
  
  cvx_begin quiet
-     variables u(2, T-1) x(4,T) %state and control signal are the unknowns
+     variables u(2, T-1) x(4,T) %comment !
      t = 1:T-1;
      cost_function = 0;
 
